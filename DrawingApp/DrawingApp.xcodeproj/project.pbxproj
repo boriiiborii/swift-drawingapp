@@ -14,6 +14,8 @@
 		DB3AA8D429D140B1002B95E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3AA8D329D140B1002B95E6 /* Assets.xcassets */; };
 		DB3AA8D729D140B1002B95E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3AA8D529D140B1002B95E6 /* LaunchScreen.storyboard */; };
 		DB3AA8DF29D168D0002B95E6 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3AA8DE29D168D0002B95E6 /* Rectangle.swift */; };
+		DBBF246429D3DFAB00447A78 /* MakeId.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBF246329D3DFAB00447A78 /* MakeId.swift */; };
+		DBBF246829D4047C00447A78 /* RectangleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBF246729D4047C00447A78 /* RectangleFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DB3AA8D629D140B1002B95E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB3AA8D829D140B1002B95E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB3AA8DE29D168D0002B95E6 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		DBBF246329D3DFAB00447A78 /* MakeId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeId.swift; sourceTree = "<group>"; };
+		DBBF246729D4047C00447A78 /* RectangleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		DB3AA8C929D140B0002B95E6 /* DrawingApp */ = {
 			isa = PBXGroup;
 			children = (
+				DBBF246729D4047C00447A78 /* RectangleFactory.swift */,
+				DBBF246329D3DFAB00447A78 /* MakeId.swift */,
 				DB3AA8DE29D168D0002B95E6 /* Rectangle.swift */,
 				DB3AA8CA29D140B0002B95E6 /* AppDelegate.swift */,
 				DB3AA8CC29D140B0002B95E6 /* SceneDelegate.swift */,
@@ -143,7 +149,9 @@
 			files = (
 				DB3AA8CF29D140B0002B95E6 /* ViewController.swift in Sources */,
 				DB3AA8CB29D140B0002B95E6 /* AppDelegate.swift in Sources */,
+				DBBF246829D4047C00447A78 /* RectangleFactory.swift in Sources */,
 				DB3AA8CD29D140B0002B95E6 /* SceneDelegate.swift in Sources */,
+				DBBF246429D3DFAB00447A78 /* MakeId.swift in Sources */,
 				DB3AA8DF29D168D0002B95E6 /* Rectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
