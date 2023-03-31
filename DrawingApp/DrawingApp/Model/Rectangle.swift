@@ -8,12 +8,12 @@ class Rectangle : Size, Location, Color{
     var locatedX : Double
     var locatedY : Double
     
-    var colorR : Int
-    var colorG : Int
-    var colorB : Int
-    var alpha : Int
+    var colorR : CGFloat
+    var colorG : CGFloat
+    var colorB : CGFloat
+    var alpha : Alpha
     
-    init(name: String, id: String, width: Int, height: Int, locatedX: Double, locatedY: Double, colorR: Int, colorG: Int, colorB: Int, alpha: Int) {
+    init(name: String, id: String, width: Int, height: Int, locatedX: Double, locatedY: Double, colorR: CGFloat, colorG: CGFloat, colorB: CGFloat, alpha: Alpha) {
         self.name = name
         self.id = id
         self.width = width
@@ -45,7 +45,12 @@ protocol Location{
 }
 
 protocol Color{
-    var colorR : Int {get}
-    var colorG : Int {get}
-    var colorB : Int {get}
+    var colorR : CGFloat{get}
+    var colorG : CGFloat{get}
+    var colorB : CGFloat{get}
+}
+
+enum Alpha: Int {
+    case one = 1
+    case two, three, four, five, six, seven,eight, nine, ten
 }

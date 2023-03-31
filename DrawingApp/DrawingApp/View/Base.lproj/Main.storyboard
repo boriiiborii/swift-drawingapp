@@ -30,6 +30,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="gPU-nA-Um9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5V1-RP-VwX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gPU-nA-Um9" secondAttribute="bottom" constant="20" id="bzU-AM-y73"/>

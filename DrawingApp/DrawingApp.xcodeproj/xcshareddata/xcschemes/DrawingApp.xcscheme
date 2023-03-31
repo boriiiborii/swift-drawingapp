@@ -29,6 +29,17 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DBC67F0429D527000080074F"
+               BuildableName = "DrawingAppTests.xctest"
+               BlueprintName = "DrawingAppTests"
+               ReferencedContainer = "container:DrawingApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
