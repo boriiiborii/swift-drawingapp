@@ -9,13 +9,13 @@ import Foundation
 
 struct Plane{
     
-    var rectangleCollection = [RectanglePr]()
+    var rectangleCollection = [Rectangle]()
     
     func countRectangles() -> Int{
         return rectangleCollection.count
     }
     
-    subscript(index: Int) -> RectanglePr {
-        return rectangleCollection[index]
+    subscript(index: Int) -> Rectangle {
+        return rectangleCollection[index-2]
     }
 }

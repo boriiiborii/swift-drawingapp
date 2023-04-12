@@ -1,20 +1,20 @@
 import Foundation
 
-protocol RectanglePr : CustomStringConvertible{
-    var name: String { get set }
-    var id : String { get set }
-    var width : Int  { get set }
-    var height : Int  { get set }
-    var locatedX : Double  { get set }
-    var locatedY : Double  { get set }
-    
-    var colorR : CGFloat  { get set }
-    var colorG : CGFloat  { get set }
-    var colorB : CGFloat  { get set }
-    var alpha : Alpha  { get set }
-}
+//protocol RectanglePr : CustomStringConvertible{
+//    var name: String { get set }
+//    var id : String { get set }
+//    var width : Int  { get set }
+//    var height : Int  { get set }
+//    var locatedX : Double  { get set }
+//    var locatedY : Double  { get set }
+//
+//    var colorR : CGFloat  { get set }
+//    var colorG : CGFloat  { get set }
+//    var colorB : CGFloat  { get set }
+//    var alpha : Alpha  { get set }
+//}
 
-class Rectangle : RectanglePr, Size, Location, Color{
+struct Rectangle{
     var name : String
     var id : String
     var width : Int
@@ -47,23 +47,17 @@ class Rectangle : RectanglePr, Size, Location, Color{
 
 
 
-protocol Size{
-    var width : Int {get}
-    var height : Int {get}
-}
 
-protocol Location{
-    var locatedX : Double {get}
-    var locatedY : Double {get}
-}
-
-protocol Color{
-    var colorR : CGFloat{get}
-    var colorG : CGFloat{get}
-    var colorB : CGFloat{get}
-}
 
 enum Alpha: Int {
     case one = 1
-    case two, three, four, five, six, seven,eight, nine, ten
+    case two = 2
+    case three = 3
+    case four = 4
+    case five = 5
+    case six = 6
+    case seven = 7
+    case eight = 8
+    case nine = 9
+    case ten = 10
 }

@@ -8,12 +8,12 @@
 import UIKit
 
 protocol PrintView {
-    func printView(rectangle : RectanglePr) -> UIView
+    func printView(rectangle : Rectangle) -> UIView
 }
 
 class PrintViewClass: PrintView{
 
-    func printView(rectangle: RectanglePr) -> UIView  {
+    func printView(rectangle: Rectangle) -> UIView  {
         let view = UIView(frame: CGRect(x: Int(rectangle.locatedX), y: Int(rectangle.locatedY), width: rectangle.width, height: rectangle.height))
         view.backgroundColor = UIColor(red: rectangle.colorR/255, green: rectangle.colorG/255, blue: rectangle.colorB/255, alpha: CGFloat(Double(rectangle.alpha.rawValue)/10.0))
         view.layer.cornerRadius = 20

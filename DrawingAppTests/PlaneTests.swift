@@ -35,4 +35,13 @@ final class DrwingAppTests: XCTestCase {
         XCTAssertNotNil(view)
     }
     
+    
+//    func countRectangles(){
+//        XCTAssertEqual(plane.rectangleCollection.count, Int(plane.rectangleCollection.last!.name.last)!)
+//    }
+
+//    subscript(index: Int) -> RectanglePr {
+//        return rectangleCollection[index-2]
+//    }
+    
 }

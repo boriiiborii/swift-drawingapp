@@ -8,12 +8,12 @@
 import Foundation
 
 protocol RectangleFactoryPr {
-    func makeRectangle(name: String, width: Int, height: Int, locatedX: Double, locatedY: Double) -> RectanglePr
+    func makeRectangle(name: String, width: Int, height: Int, locatedX: Double, locatedY: Double) -> Rectangle
 }
 
 class RectangleFactory: RectangleFactoryPr{
-    func makeRectangle(name: String, width: Int, height: Int, locatedX: Double, locatedY: Double) -> RectanglePr{
-        let id = MakeId().makeId()
+    func makeRectangle(name: String, width: Int, height: Int, locatedX: Double, locatedY: Double) -> Rectangle{
+        let id = Id().id
         let colorR = CGFloat((0...255).randomElement()!)
         let colorG = CGFloat((0...255).randomElement()!)
         let colorB = CGFloat((0...255).randomElement()!)
